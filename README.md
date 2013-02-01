@@ -9,11 +9,11 @@ It initialize the socket and change the color of the div.couleur container when 
 
 ## Arduino parts
 
-You can check the arduino app #### [here](https://github.com/romaindr/arduinoLEDsRGB_arduino)
+You can check the arduino app [here](https://github.com/romaindr/arduinoLEDsRGB_arduino)
 
 ## Node parts
 
-You can check the node server #### [here](https://github.com/romaindr/arduinoLEDsRGB_node)
+You can check the node server [here](https://github.com/romaindr/arduinoLEDsRGB_node)
 
 
 ###You may want to check these links...
