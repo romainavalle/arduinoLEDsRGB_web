@@ -5,14 +5,13 @@ $(function(){
  var socket,id;
 function initSocket() {
   //listen
-  socket = io.connect('http://192.168.0.39:8081');
+  socket = io.connect('http://secret-fjord-1955.herokuapp.com:80');
   
   $('ul').on('click','a',function(e){
     e.preventDefault();
     socket.emit('node',{type:'shoot',color:$(this).attr('class')});
   });
   socket.on('response', function(e){
-    console.log('lala')
     if(e.obj.green==null)e.obj.green=0;
     if(e.obj.blue==null)e.obj.blue=0;
     if(e.obj.red==null)e.obj.red=0;
