@@ -16,9 +16,9 @@ function initSocket() {
     if(e.obj.blue==null)e.obj.blue=0;
     if(e.obj.red==null)e.obj.red=0;
     //
-    $('.red').prev().stop().animate({'width':e.obj.red*100+'%'},300);
-    $('.blue').prev().stop().animate({'width':e.obj.blue*100+'%'},300);
-    $('.green').prev().stop().animate({'width':e.obj.green*100+'%'},300);
+    $('.red').next().stop().animate({'width':e.obj.red*100+'%'},300);
+    $('.blue').next().stop().animate({'width':e.obj.blue*100+'%'},300);
+    $('.green').next().stop().animate({'width':e.obj.green*100+'%'},300);
     e.obj.red = Math.round(e.obj.red*255);
     e.obj.green = Math.round(e.obj.green*255);
     e.obj.blue = Math.round(e.obj.blue*255);
